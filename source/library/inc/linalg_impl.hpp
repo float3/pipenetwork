@@ -10,13 +10,9 @@
 namespace cie {
 namespace linalg {
 
-inline double &Matrix::operator()(size_t i, size_t j) {
-  return data_[i * size2_ + j];
-}
+inline double &Matrix::operator()(size_t i, size_t j) { return data_[i * size2_ + j]; }
 
-inline double Matrix::operator()(size_t i, size_t j) const {
-  return data_[i * size2_ + j];
-}
+inline double Matrix::operator()(size_t i, size_t j) const { return data_[i * size2_ + j]; }
 
 inline size_t Matrix::size1() const { return size1_; }
 

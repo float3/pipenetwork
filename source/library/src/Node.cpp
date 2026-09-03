@@ -3,8 +3,7 @@
 namespace cie {
 namespace pipenetwork {
 
-Node::Node(double x, double y, double flow, int id)
-    : x_(x), y_(y), flow_(flow), id_(id) {}
+Node::Node(double x, double y, double flow, int id) : x_(x), y_(y), flow_(flow), id_(id) {}
 
 double Node::x() const { return x_; }
 
