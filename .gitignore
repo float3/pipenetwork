@@ -16,3 +16,5 @@ build/
 cmake_install.cmake
 main
 pipenetwork_testrunner
+/result
+/result-*
